@@ -342,7 +342,9 @@
   <ItemGroup>
     <Compile Include="ModelBinding\Attributes\BinderTypeProviderAttribute.cs" />
     <Compile Include="ModelBinding\Attributes\FromBodyFileAttribute.cs" />
+    <Compile Include="ModelBinding\Attributes\FromBodyStringAttribute.cs" />
     <Compile Include="ModelBinding\Binders\BodyFileModelBinder.cs" />
+    <Compile Include="ModelBinding\Binders\BodyStringModelBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
